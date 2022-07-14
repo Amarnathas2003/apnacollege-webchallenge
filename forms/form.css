@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("pexels-bri-schneiter-346529.jpg");
+}
+/* Main Container of Form */
+.container{
+    width: 700px;
+    height: 600px;
+    background: rgb(246, 242, 242);
+    margin-left: 360px;
+    margin-top: 30px;
+    border: rgb(246, 239, 239) 3px solid;
+}
+/* Main Container End */
+/*Header Section */
+.text{
+    line-height: 1px;
+    padding: 5px 50px;
+    background: rgb(133, 147, 219);
+    border-bottom: rgb(105, 118, 238) 2px solid;
+
+}
+.text h1{
+    font-size: 35px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+.text h4{
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Header Section End */
+/* Input Forms Section */
+input, label{
+    display: block;
+    margin-top: 8px; 
+    margin-left: 75px;
+}
+input{
+    width: 485px;
+    height: 30px;
+    margin-left: 75px;
+    margin-top: 10px;
+    border: rgba(158, 149, 149, 0.855) 2px solid;
+}
+.input_group{
+    margin-top: 45px;
+}
+.input_message input{
+    height: 100px;
+}
+/* Input Form Section End */
+/* Button */
+.submit_button{
+    margin-top: 6px;
+    margin-left: 75px;
+    width: 60px;
+    height: 28px;
+    background: rgb(133, 147, 219);
+    color: white;
+    border: rgb(137, 137, 240) 1px solid;
+}
+.submit_button:hover{
+    cursor: pointer;
+}
+/* Button End */
