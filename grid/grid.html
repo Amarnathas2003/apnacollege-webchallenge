@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+        grid-gap: 20px;
+        grid-template-rows: minmax(100px,auto);
+        grid-template-columns: minmax(50px,auto);
+
+    
+    }
+    .items{
+        background-color: lightcoral;
+        border: 3px solid green;
+        border-radius: 3px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="items">Dabba1</div>
+        <div class="items">Dabba2</div>
+        <div class="items">Dabba3</div>
+        <div class="items">Dabba4</div>
+        <div class="items">Dabba5</div>
+    </div>
+    
+</body>
+</html>
